@@ -1,133 +1,131 @@
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
    GUIDE D'UTILISATION — SONDAGE DE SATISFACTION CLIENT
    Deschamps Chevrolet Buick Cadillac GMC
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-
-🔗 VOTRE LIEN DE SONDAGE :
+🔗  VOTRE LIEN DE SONDAGE
 
    https://sondage-deschamps-chevrolet.pages.dev
 
-(Le sondage est déjà en ligne et prêt à être envoyé à vos clients!)
 
 
-━━━━━━━━━━━━━━━━━━━━━ COMMENT ÇA FONCTIONNE? ━━━━━━━━━━━━━━━━━━━━
+━━━  COMMENT ÇA FONCTIONNE?  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Après chaque vente, vous envoyez un email ou un texto à votre client.
-Le client clique sur le lien et répond à 3 questions rapides (30 secondes).
+Le client clique sur le lien et répond à 3 questions rapides (30 sec).
 
-✅ Client SATISFAIT  (Excellent + Excellent + Oui)
-     → Redirigé automatiquement vers Google pour laisser un avis 5 étoiles!
+   ✅  Client SATISFAIT (Excellent + Excellent + Oui)
+       → Redirigé automatiquement vers Google pour un avis 5 étoiles!
 
-❌ Client PAS 100% SATISFAIT
-     → Message de remerciement interne seulement.
-       AUCUNE redirection Google. AUCUN mauvais avis public.
-
-C'est tout! Simple, rapide et efficace.
+   ❌  Client PAS 100% satisfait
+       → Message de remerciement interne seulement.
+       → AUCUNE redirection Google. AUCUN mauvais avis public.
 
 
-━━━━━━━━━━━━━━━━━━━━━ CHOISISSEZ VOTRE MÉTHODE ━━━━━━━━━━━━━━━━━━
 
-📧  EMAIL AVEC BOUTON STYLISÉ   (le plus professionnel)
-📝  EMAIL TEXTE SIMPLE          (prêt à copier-coller ci-dessous)
-📱  SMS / TEXTO                 (prêt à copier-coller ci-dessous)
+━━━  CHOISISSEZ VOTRE MÉTHODE  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-
-━━━━━━━━━━━━━━━ OPTION 1 — EMAIL AVEC BOUTON STYLISÉ ━━━━━━━━━━━━
-
-📌  Recommandé pour Gmail et Outlook (rendu visuel professionnel).
-
-ÉTAPE 1   Double-cliquez sur le fichier "Template-Email-Sondage.html"
-          ► Il s'ouvre dans votre navigateur Internet.
-
-ÉTAPE 2   Faites CTRL + A   (sélectionner tout le contenu)
-
-ÉTAPE 3   Faites CTRL + C   (copier)
-
-ÉTAPE 4   Ouvrez votre Gmail / Outlook ► Nouveau message ► Cliquez dans
-          le corps du message ► Faites CTRL + V   (coller)
-
-ÉTAPE 5   Ajoutez l'adresse email du client.
-
-ÉTAPE 6   Ajoutez l'objet ci-dessous, puis ENVOYEZ.
+   📧  OPTION 1 — EMAIL AVEC BOUTON STYLISÉ   (le plus professionnel)
+   📝  OPTION 2 — EMAIL TEXTE SIMPLE          (prêt à copier-coller)
+   📱  OPTION 3 — SMS / TEXTO                 (prêt à copier-coller)
 
 
-   ▸  Objet :  Merci pour votre achat! Un petit sondage rapide? ⭐
+
+━━━  OPTION 1 — EMAIL AVEC BOUTON STYLISÉ  ━━━━━━━━━━━━━━━━━━━━━━
+
+📌 Recommandé pour Gmail et Outlook (rendu visuel professionnel).
+
+   ÉTAPE 1   Double-cliquez sur "Template-Email-Sondage.html"
+             ► Il s'ouvre dans votre navigateur.
+
+   ÉTAPE 2   CTRL + A   (sélectionner tout)
+   ÉTAPE 3   CTRL + C   (copier)
+
+   ÉTAPE 4   Gmail / Outlook ► Nouveau message ► Cliquez dans le
+             corps du message ► CTRL + V   (coller)
+
+   ÉTAPE 5   Ajoutez l'adresse email du client.
+
+   ÉTAPE 6   Ajoutez l'objet ci-dessous, puis ENVOYEZ.
+
+       Objet :  Merci pour votre achat! Un petit sondage rapide? ⭐
 
 
-💡  ASTUCE GMAIL — Sauvegardez comme modèle réutilisable :
-    Nouveau message ► 3 petits points (en bas à droite) ► Modèles ►
-    Enregistrer le brouillon comme modèle.
+💡 GMAIL — Sauvegardez comme modèle réutilisable :
+   Nouveau message ► 3 petits points (en bas à droite) ► Modèles ►
+   Enregistrer le brouillon comme modèle.
 
-💡  ASTUCE OUTLOOK — Sauvegardez comme modèle :
-    Fichier ► Enregistrer sous ► Type : "Modèle Outlook (*.oft)".
-
-
-━━━━━━━━━━━━━━━━━ OPTION 2 — EMAIL TEXTE SIMPLE ━━━━━━━━━━━━━━━━━
-
-📌  Idéal pour CRM, Outlook texte simple, ou envoi rapide.
+💡 OUTLOOK — Sauvegardez comme modèle :
+   Fichier ► Enregistrer sous ► Type : "Modèle Outlook (*.oft)".
 
 
-────  OBJET DE L'EMAIL  ──────────────────────────────────────────
 
-   ▸  Merci pour votre achat! Un petit sondage rapide? ⭐
+━━━  OPTION 2 — EMAIL TEXTE SIMPLE  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+📌 Idéal pour CRM, Outlook texte simple, ou envoi rapide.
 
-────  CORPS DU MESSAGE   (sélectionnez et copiez tout ci-dessous)  ──
-
-Bonjour,
-
-Nous espérons que vous profitez pleinement de votre nouveau véhicule! 🚗
-
-Votre satisfaction est notre priorité. Pourriez-vous prendre 30 secondes
-pour répondre à notre court sondage?
-
-👉 Cliquez ici pour donner votre avis :
-   https://sondage-deschamps-chevrolet.pages.dev
-
-Merci de votre confiance!
-
-L'équipe de Deschamps Chevrolet Buick Cadillac GMC
-📍 333 Blvd. Armand-Frappier, Sainte-Julie, QC
-
-──────────────────────────────────────────────────────────────────
+   OBJET :   Merci pour votre achat! Un petit sondage rapide? ⭐
 
 
-━━━━━━━━━━━━━━━━━━━━━ OPTION 3 — SMS / TEXTO ━━━━━━━━━━━━━━━━━━━━
+   MESSAGE   (sélectionnez et copiez tout ci-dessous)
 
-📌  Idéal pour un envoi direct depuis votre cellulaire ou votre CRM.
+   ──────────────────────────────────────────────────────────────
 
+   Bonjour,
 
-────  MESSAGE À ENVOYER   (sélectionnez et copiez tout ci-dessous)  ──
+   Nous espérons que vous profitez pleinement de votre nouveau
+   véhicule! 🚗
 
-Bonjour! 🚗
+   Votre satisfaction est notre priorité. Pourriez-vous prendre 30
+   secondes pour répondre à notre court sondage?
 
-Merci pour votre achat chez Deschamps Chevrolet!
+   👉 Cliquez ici pour donner votre avis :
+      https://sondage-deschamps-chevrolet.pages.dev
 
-Avez-vous 30 secondes pour un petit sondage?
-👉 https://sondage-deschamps-chevrolet.pages.dev
+   Merci de votre confiance!
 
-Merci et bonne route!
-— L'équipe Deschamps Chevrolet
+   L'équipe de Deschamps Chevrolet Buick Cadillac GMC
+   📍 333 Blvd. Armand-Frappier, Sainte-Julie, QC
 
-──────────────────────────────────────────────────────────────────
-
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━ VOS FICHIERS ━━━━━━━━━━━━━━━━━━━━━━━━━
-
-📄  Instructions.txt              →  CE GUIDE (tout est intégré dedans)
-📄  Template-Email-Sondage.html   →  Email visuel à ouvrir pour Option 1
-📄  Template-Email-Texte.txt      →  Backup texte (déjà copié dans ce guide)
-📄  Template-SMS.txt              →  Backup SMS (déjà copié dans ce guide)
+   ──────────────────────────────────────────────────────────────
 
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━ BESOIN D'AIDE? ━━━━━━━━━━━━━━━━━━━━━━━
 
-Pour toute question, contactez la personne qui vous a fourni ces documents.
+━━━  OPTION 3 — SMS / TEXTO  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 Idéal pour un envoi direct depuis cellulaire ou CRM.
+
+   MESSAGE   (sélectionnez et copiez tout ci-dessous)
+
+   ──────────────────────────────────────────────────────────────
+
+   Bonjour! 🚗
+
+   Merci pour votre achat chez Deschamps Chevrolet!
+
+   Avez-vous 30 secondes pour un petit sondage?
+   👉 https://sondage-deschamps-chevrolet.pages.dev
+
+   Merci et bonne route!
+   — L'équipe Deschamps Chevrolet
+
+   ──────────────────────────────────────────────────────────────
 
 
-                      Bonne utilisation!  🚗 ⭐
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━  VOS FICHIERS  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+   📄  Instructions.txt              CE GUIDE (texte simple)
+   📄  Instructions.html             CE GUIDE (à copier-coller dans Gmail
+                                     avec mise en forme : gras + couleurs)
+   📄  Template-Email-Sondage.html   Email visuel pour l'Option 1
+   📄  Template-Email-Texte.txt      Backup texte
+   📄  Template-SMS.txt              Backup SMS
+
+
+━━━  BESOIN D'AIDE?  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Contactez la personne qui vous a fourni ces documents.
+
+
+                        Bonne utilisation!  🚗 ⭐
