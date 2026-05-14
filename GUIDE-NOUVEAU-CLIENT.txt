@@ -1,0 +1,193 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+#                    GUIDE DE CRÉATION - NOUVEAU SONDAGE CLIENT
+#                         (Architecture St-Georges V2)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+Ce guide vous permet de créer un nouveau sondage pour un concessionnaire en 15 minutes.
+
+═══════════════════════════════════════════════════════════════════════════════
+ÉTAPE 1 : PRÉPARATION (5 min)
+═══════════════════════════════════════════════════════════════════════════════
+
+□ 1.1 - Récupérer les informations du client :
+   • Nom officiel du concessionnaire : ______________________________
+   • Adresse complète : ___________________________________________
+   • Logo (fichier image ou URL) : ________________________________
+
+□ 1.2 - Trouver le Place ID Google :
+   • Aller sur : https://developers.google.com/maps/documentation/places/web-service/place-id
+   • Chercher le nom du concessionnaire
+   • Copier le Place ID (commence par "ChIJ...")
+   • Place ID : ___________________________________________________
+
+□ 1.3 - Choisir le nom du projet Cloudflare :
+   • Format recommandé : sondage-nomduclient (tout en minuscules, pas d'espaces)
+   • Exemple : sondage-stgeorgeschevrolet, sondage-gestionlac
+   • Nom choisi : _________________________________________________
+   • URL finale sera : https://[NOM-CHOISI].pages.dev
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ÉTAPE 2 : COPIER LE DOSSIER MODÈLE (1 min)
+═══════════════════════════════════════════════════════════════════════════════
+
+□ 2.1 - Dupliquer le dossier "Gestion Lac" (ou un autre projet fonctionnel)
+□ 2.2 - Renommer le nouveau dossier avec le nom du client
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ÉTAPE 3 : MODIFIER index.html (5 min)
+═══════════════════════════════════════════════════════════════════════════════
+
+Ouvrir index.html et modifier ces 4 sections :
+
+□ 3.1 - SECTION CONFIG (lignes 17-25) :
+   Remplacer :
+   ─────────────────────────────────────────────────────────────────────────────
+   const CONFIG = {
+     GOOGLE_REVIEW_URL: 'https://search.google.com/local/writereview?placeid=NOUVEAU_PLACE_ID_ICI',
+     GOOGLE_REVIEW_URL_DIRECT: 'https://search.google.com/local/writereview?placeid=NOUVEAU_PLACE_ID_ICI',
+     DEALER_LOGO_URL: 'NOUVEAU_LOGO_EN_BASE64_OU_URL',
+     DEALER_BRAND: 'NOM DU NOUVEAU CLIENT',
+     API_ENDPOINT: ''
+   };
+   ─────────────────────────────────────────────────────────────────────────────
+
+□ 3.2 - SECTION QUESTIONS (lignes 295-299) :
+   Remplacer le nom dans les questions :
+   ─────────────────────────────────────────────────────────────────────────────
+   const QUESTIONS = {
+     1: 'Comment évalueriez-vous votre représentant(e)?',
+     2: "Comment évalueriez-vous votre expérience d'achat chez NOM DU CLIENT?",
+     3: 'Recommanderiez-vous NOM DU CLIENT à vos proches?'
+   };
+   ─────────────────────────────────────────────────────────────────────────────
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ÉTAPE 4 : MODIFIER LES TEMPLATES (2 min)
+═══════════════════════════════════════════════════════════════════════════════
+
+Pour chaque fichier, faire Chercher/Remplacer (Ctrl+H) :
+
+□ 4.1 - Template-Email-Sondage.html :
+   • Remplacer "Gestion Lac Auto" → "NOM DU NOUVEAU CLIENT"
+   • Remplacer "https://sondage-gestionlac.pages.dev" → "https://NOUVEAU-NOM.pages.dev"
+
+□ 4.2 - Template-Email-Texte.txt :
+   • Remplacer "Gestion Lac Auto" → "NOM DU NOUVEAU CLIENT"
+   • Remplacer "https://sondage-gestionlac.pages.dev" → "https://NOUVEAU-NOM.pages.dev"
+
+□ 4.3 - Template-SMS.txt :
+   • Remplacer "Gestion Lac Auto" → "NOM DU NOUVEAU CLIENT"
+   • Remplacer "https://sondage-gestionlac.pages.dev" → "https://NOUVEAU-NOM.pages.dev"
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ÉTAPE 5 : CRÉER LE DÉPÔT GITHUB (2 min)
+═══════════════════════════════════════════════════════════════════════════════
+
+□ 5.1 - Aller sur https://github.com/new
+
+□ 5.2 - Créer un nouveau dépôt :
+   • Repository name : sondage-nomduclient
+   • Visibility : Private
+   • Cliquer "Create repository"
+
+□ 5.3 - Dans le terminal (PowerShell), naviguer vers le dossier du projet :
+   cd "C:\Users\guilb\OneDrive\Bureau\Projet WEB\NOM-DU-DOSSIER"
+
+□ 5.4 - Exécuter ces commandes une par une :
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/Math244244/sondage-nomduclient.git
+   git push -u origin main
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ÉTAPE 6 : DÉPLOYER SUR CLOUDFLARE PAGES (2 min)
+═══════════════════════════════════════════════════════════════════════════════
+
+□ 6.1 - Aller sur https://dash.cloudflare.com → Workers & Pages
+
+□ 6.2 - Cliquer "Create" → Choisir l'onglet "Pages"
+
+□ 6.3 - Cliquer "Connect to Git" → Sélectionner le nouveau dépôt
+
+□ 6.4 - Configuration du Build :
+   • Framework preset : None
+   • Build command : (laisser VIDE)
+   • Build output directory : /
+
+□ 6.5 - Cliquer "Save and Deploy"
+
+□ 6.6 - Attendre ~30 secondes. L'URL sera affichée en haut.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ÉTAPE 7 : VALIDATION FINALE (2 min)
+═══════════════════════════════════════════════════════════════════════════════
+
+□ 7.1 - Ouvrir le lien sur votre TÉLÉPHONE (pas sur PC)
+
+□ 7.2 - Répondre : Excellent → Excellent → Oui
+
+□ 7.3 - VÉRIFIER :
+   • Êtes-vous redirigé vers la page Google Avis ?
+   • Y a-t-il un menu "Ouvrir avec Gmail/Outlook" ? (Il ne devrait PAS y en avoir)
+
+□ 7.4 - Si tout est bon : Le projet est terminé !
+
+
+═══════════════════════════════════════════════════════════════════════════════
+AIDE-MÉMOIRE : COMMANDES GIT POUR MISES À JOUR
+═══════════════════════════════════════════════════════════════════════════════
+
+Quand vous modifiez un fichier et voulez mettre à jour le site :
+
+   git add .
+   git commit -m "Description de la modification"
+   git push
+
+Cloudflare mettra automatiquement le site à jour en ~30 secondes.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+AIDE-MÉMOIRE : CONVERTIR UNE IMAGE EN BASE64
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Aller sur : https://www.base64-image.de/
+2. Glisser l'image du logo
+3. Cliquer "Copy image"
+4. Coller dans DEALER_LOGO_URL (entre les guillemets)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+STRUCTURE DES FICHIERS (RAPPEL)
+═══════════════════════════════════════════════════════════════════════════════
+
+DOSSIER-CLIENT/
+├── index.html                   ← Application principale
+├── _redirects                   ← Règle Cloudflare (ne pas toucher)
+├── .gitignore                   ← Config Git (ne pas toucher)
+├── Template-Email-Sondage.html  ← Modèle email HTML
+├── Template-Email-Texte.txt     ← Modèle email texte
+├── Template-SMS.txt             ← Modèle SMS
+└── Instructions.txt             ← Ce guide (optionnel)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+CONTACTS / RESSOURCES
+═══════════════════════════════════════════════════════════════════════════════
+
+• Place ID Finder : https://developers.google.com/maps/documentation/places/web-service/place-id
+• Cloudflare Dashboard : https://dash.cloudflare.com
+• GitHub : https://github.com/Math244244
+• Convertisseur Base64 : https://www.base64-image.de/
+
+═══════════════════════════════════════════════════════════════════════════════
+                              FIN DU GUIDE
+═══════════════════════════════════════════════════════════════════════════════
+

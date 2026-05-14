@@ -1,0 +1,22 @@
+═══════════════════════════════════════════════════════════════════
+                         MODÈLE POUR SMS/TEXTO
+              Sondage de satisfaction - Deschamps Chevrolet
+═══════════════════════════════════════════════════════════════════
+
+COPIEZ CE TEXTE POUR VOS SMS :
+
+───────────────────────────────────────────────────────────────────
+
+Bonjour! 🚗
+
+Merci pour votre achat chez Deschamps Chevrolet!
+
+Avez-vous 30 secondes pour un petit sondage?
+👉 https://sondage-deschamps-chevrolet.pages.dev
+
+Merci et bonne route!
+- L'équipe Deschamps Chevrolet
+
+───────────────────────────────────────────────────────────────────
+
+═══════════════════════════════════════════════════════════════════

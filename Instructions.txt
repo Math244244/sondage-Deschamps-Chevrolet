@@ -1,0 +1,109 @@
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║           GUIDE D'UTILISATION - SONDAGE DE SATISFACTION CLIENT               ║
+║                  Deschamps Chevrolet Buick Cadillac GMC                       ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+
+🔗 VOTRE LIEN DE SONDAGE (déjà en ligne et prêt!) :
+
+   https://sondage-deschamps-chevrolet.pages.dev
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                           COMMENT ÇA FONCTIONNE?
+═══════════════════════════════════════════════════════════════════════════════
+
+Vous envoyez un email ou texto à votre client après une vente.
+Le client clique sur le lien et répond à 3 questions rapides.
+
+➡️ Si le client répond POSITIVEMENT aux 3 questions :
+   Il est automatiquement redirigé vers Google pour laisser un avis 5 étoiles!
+
+➡️ Si le client n'est pas 100% satisfait :
+   Il voit un message de remerciement (pas de redirection Google).
+
+C'est tout! Simple et efficace.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                         VOS 3 FAÇONS D'ENVOYER
+═══════════════════════════════════════════════════════════════════════════════
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  OPTION 1 : EMAIL AVEC BOUTON (le plus beau)                               │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+1. Ouvrez le fichier "Template-Email-Sondage.html" avec votre navigateur
+   (Double-cliquez dessus)
+
+2. Faites CTRL + A (sélectionner tout)
+
+3. Faites CTRL + C (copier)
+
+4. Ouvrez votre email (Gmail, Outlook, etc.) → Nouveau message
+
+5. Cliquez dans le corps du message et faites CTRL + V (coller)
+
+6. Ajoutez l'adresse email du client
+
+7. Ajoutez l'objet : Merci pour votre achat! Un petit sondage rapide? ⭐
+
+8. Envoyez!
+
+💡 ASTUCE GMAIL : Sauvegardez comme modèle pour réutiliser facilement :
+   3 petits points → Modèles → Enregistrer le brouillon comme modèle
+
+💡 ASTUCE OUTLOOK : Sauvegardez comme modèle :
+   Fichier → Enregistrer sous → Type: "Modèle Outlook (*.oft)"
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  OPTION 2 : EMAIL TEXTE SIMPLE                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+1. Ouvrez le fichier "Template-Email-Texte.txt"
+
+2. Copiez le texte entre les lignes ─────
+
+3. Collez dans votre email ou CRM
+
+4. Envoyez!
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  OPTION 3 : SMS / TEXTO                                                    │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+1. Ouvrez le fichier "Template-SMS.txt"
+
+2. Copiez le texte entre les lignes ─────
+
+3. Collez dans votre application de texto
+
+4. Envoyez!
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                              VOS FICHIERS
+═══════════════════════════════════════════════════════════════════════════════
+
+📁 Template-Email-Sondage.html → Email avec bouton stylisé
+📁 Template-Email-Texte.txt    → Email version texte simple  
+📁 Template-SMS.txt            → Message texto
+📁 Instructions.txt            → Ce guide
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                              BESOIN D'AIDE?
+═══════════════════════════════════════════════════════════════════════════════
+
+Si vous avez des questions, contactez la personne qui vous a fourni 
+ces documents.
+
+
+                         Bonne utilisation! 🚗⭐
+
+═══════════════════════════════════════════════════════════════════════════════

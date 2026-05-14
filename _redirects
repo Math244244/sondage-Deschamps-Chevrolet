@@ -1,0 +1,4 @@
+# Redirections Netlify
+# Cette redirection côté serveur contourne le dialogue "Ouvrir avec" sur Android
+
+/google-review  https://search.google.com/local/writereview?placeid=ChIJ6-vHEu4ByUwR0-rVM_CimFA  301!

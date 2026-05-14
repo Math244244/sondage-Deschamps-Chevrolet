@@ -1,0 +1,26 @@
+═══════════════════════════════════════════════════════════════════
+                    MODÈLE D'EMAIL - VERSION TEXTE
+              Sondage de satisfaction - Deschamps Chevrolet
+═══════════════════════════════════════════════════════════════════
+
+OBJET DE L'EMAIL :  Merci pour votre achat! Un petit sondage rapide? ⭐
+
+───────────────────────────────────────────────────────────────────
+
+Bonjour,
+
+Nous espérons que vous profitez pleinement de votre nouveau véhicule! 🚗
+
+Votre satisfaction est notre priorité. Pourriez-vous prendre 30 secondes 
+pour répondre à notre court sondage?
+
+👉 Cliquez ici pour donner votre avis : https://sondage-deschamps-chevrolet.pages.dev
+
+Merci de votre confiance!
+
+L'équipe de Deschamps Chevrolet Buick Cadillac GMC
+📍 333 Blvd. Armand-Frappier, Sainte-Julie, QC
+
+───────────────────────────────────────────────────────────────────
+
+═══════════════════════════════════════════════════════════════════
