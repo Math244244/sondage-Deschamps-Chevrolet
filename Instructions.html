@@ -4,23 +4,62 @@
     <meta charset="utf-8">
     <title>Guide d'utilisation - Sondage Deschamps Chevrolet</title>
     <style>
-        body { font-family: 'Segoe UI', Arial, sans-serif; max-width: 720px; margin: 30px auto; padding: 20px; color: #1e293b; background: #f8fafc; line-height: 1.6; }
-        .container { background: #ffffff; padding: 35px 40px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
-        .tip-box { background: #fffbeb; border-left: 4px solid #f59e0b; padding: 12px 16px; margin: 12px 0; border-radius: 4px; }
-        .toc-item { padding: 10px 14px; margin: 8px 0; background: #f1f5f9; border-radius: 6px; }
-        .copy-block { background: #f8fafc; border: 1px dashed #cbd5e1; padding: 18px 22px; margin: 14px 0; border-radius: 6px; font-family: Georgia, serif; }
-        h1 { color: #0066CC; font-size: 22px; margin-bottom: 4px; }
-        h2 { color: #0066CC; font-size: 18px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; margin-top: 32px; }
-        h3 { color: #1e293b; font-size: 15px; margin-top: 18px; }
-        .subtitle { color: #64748b; font-size: 13px; margin-top: 0; }
-        .link { color: #0066CC; font-weight: 700; word-break: break-all; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; max-width: 760px; margin: 30px auto; padding: 20px; color: #1e293b; background: #f1f5f9; line-height: 1.65; }
+        .container { background: #ffffff; padding: 40px 45px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
+
+        /* HEADER */
+        .header-band { background: linear-gradient(135deg, #0066CC 0%, #0052a3 100%); color: #fff; padding: 24px 28px; border-radius: 10px; margin-bottom: 28px; }
+        .header-band h1 { color: #fff; font-size: 22px; margin: 0 0 6px 0; font-weight: 700; }
+        .header-band p { margin: 0; color: rgba(255,255,255,0.92); font-size: 14px; }
+
+        /* LINK BOX */
+        .link-box { background: #ecfdf5; border: 2px solid #10b981; border-radius: 10px; padding: 18px 22px; margin: 18px 0 28px 0; text-align: center; }
+        .link-box .label { font-size: 12px; color: #047857; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 6px; }
+        .link-box a { color: #047857; font-size: 17px; font-weight: 700; text-decoration: none; word-break: break-all; }
+
+        /* SECTION NUMBERS */
+        h2 { color: #0066CC; font-size: 19px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 36px; margin-bottom: 16px; }
+        h2 .num { display: inline-block; background: #0066CC; color: #fff; width: 28px; height: 28px; line-height: 28px; text-align: center; border-radius: 50%; font-size: 14px; font-weight: 700; margin-right: 10px; vertical-align: middle; }
+        h3 { color: #1e293b; font-size: 15px; margin-top: 22px; margin-bottom: 8px; }
+
+        /* TOC */
+        .toc { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 18px 22px; margin: 20px 0 32px 0; }
+        .toc-title { font-size: 12px; color: #64748b; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px; }
+        .toc ol { margin: 0; padding-left: 22px; }
+        .toc ol li { margin: 6px 0; color: #334155; }
+        .toc ol li a { color: #0066CC; text-decoration: none; font-weight: 600; }
+
+        /* METHOD BOXES (A vs B) */
+        .method-box { border-radius: 10px; padding: 22px 26px; margin: 14px 0; }
+        .method-a { background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border-left: 5px solid #0066CC; }
+        .method-b { background: #f8fafc; border-left: 5px solid #94a3b8; }
+        .method-box h3 { margin-top: 0; font-size: 17px; }
+        .badge-recommended { display: inline-block; background: #10b981; color: #fff; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 12px; margin-left: 8px; vertical-align: middle; letter-spacing: 0.5px; }
+
+        /* TIPS */
+        .tip-box { background: #fffbeb; border-left: 4px solid #f59e0b; padding: 12px 18px; margin: 14px 0; border-radius: 4px; }
+
+        /* COPY BLOCKS */
+        .copy-block { background: #f8fafc; border: 1px dashed #cbd5e1; padding: 18px 22px; margin: 12px 0; border-radius: 8px; font-family: Georgia, serif; }
+        .copy-block .copy-label { display: block; font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; color: #64748b; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid #e2e8f0; }
+
+        /* OPTION CARDS */
+        .opt-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; margin: 10px 0; }
+
+        /* STEP */
+        .step { margin: 10px 0; padding-left: 4px; }
+        .step-num { display: inline-block; background: #0066CC; color: #fff; font-weight: 700; min-width: 80px; text-align: center; padding: 4px 10px; border-radius: 4px; margin-right: 12px; font-size: 12px; letter-spacing: 0.5px; }
+
+        /* KEYBOARD KEY */
+        .key { display: inline-block; background: #1e293b; color: #fff; padding: 3px 10px; border-radius: 4px; font-family: Consolas, monospace; font-size: 12px; font-weight: 700; box-shadow: 0 2px 0 #475569; }
+
+        /* COLORS */
         .check { color: #10b981; font-weight: 700; }
         .cross { color: #ef4444; font-weight: 700; }
-        .step { margin: 10px 0; }
-        .step-num { display: inline-block; background: #0066CC; color: #fff; font-weight: 700; width: 70px; text-align: center; padding: 3px 8px; border-radius: 4px; margin-right: 10px; font-size: 13px; }
-        .key { display: inline-block; background: #1e293b; color: #fff; padding: 2px 8px; border-radius: 4px; font-family: Consolas, monospace; font-size: 13px; font-weight: 700; }
-        .file-row { padding: 6px 0; }
-        .file-name { font-family: Consolas, monospace; color: #0066CC; font-weight: 700; }
+        .file-name { font-family: Consolas, monospace; color: #0066CC; font-weight: 700; font-size: 13px; }
+        .pill { display: inline-block; background: #e0e7ff; color: #3730a3; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 700; margin-left: 6px; }
+        .small { color: #64748b; font-size: 13px; }
+        .arrow { color: #0066CC; font-weight: 700; }
     </style>
 </head>
 <body>
@@ -32,107 +71,166 @@
 
 <div class="container">
 
-    <h1>🚗 Guide d'utilisation — Sondage de satisfaction</h1>
-    <p class="subtitle"><strong>Deschamps Chevrolet Buick Cadillac GMC</strong></p>
+    <!-- HEADER -->
+    <div class="header-band">
+        <h1>🚗 Guide d'utilisation — Sondage de satisfaction</h1>
+        <p><strong>Deschamps Chevrolet Buick Cadillac GMC</strong></p>
+    </div>
 
-    <h3>🔗 Votre lien de sondage</h3>
-    <p><a href="https://sondage-deschamps-chevrolet.pages.dev" class="link">https://sondage-deschamps-chevrolet.pages.dev</a></p>
-    <p style="color:#64748b; font-size:13px;">Le sondage est déjà en ligne et prêt à être envoyé à vos clients!</p>
+    <!-- LIEN DU SONDAGE EN ÉVIDENCE -->
+    <div class="link-box">
+        <div class="label">🔗 Votre lien de sondage (déjà en ligne!)</div>
+        <a href="https://sondage-deschamps-chevrolet.pages.dev">https://sondage-deschamps-chevrolet.pages.dev</a>
+    </div>
+
+    <!-- SOMMAIRE -->
+    <div class="toc">
+        <div class="toc-title">📑 Sommaire</div>
+        <ol>
+            <li><a href="#section1">Comment ça fonctionne?</a></li>
+            <li><a href="#section2">2 façons d'envoyer le sondage (Automatique ou Manuel)</a></li>
+            <li><a href="#section3">Vos modèles de message prêts à utiliser</a></li>
+            <li><a href="#section4">Vos fichiers</a></li>
+            <li><a href="#section5">Besoin d'aide?</a></li>
+        </ol>
+    </div>
 
 
-    <h2>Comment ça fonctionne?</h2>
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <!-- SECTION 1                                                     -->
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <h2 id="section1"><span class="num">1</span>Comment ça fonctionne?</h2>
 
     <p>Après chaque vente, vous envoyez un email ou un texto à votre client. Le client clique sur le lien et répond à <strong>3 questions rapides (30 secondes)</strong>.</p>
 
-    <p><span class="check">✅ Client SATISFAIT</span> &nbsp;(Excellent + Excellent + Oui)<br>
-       <span style="margin-left:24px;">→ Redirigé automatiquement vers Google pour un avis 5 étoiles!</span></p>
+    <p><span class="check">✅ Client SATISFAIT</span> &nbsp;<span class="small">(Excellent + Excellent + Oui)</span><br>
+       <span style="margin-left:24px;"><span class="arrow">→</span> Redirigé automatiquement vers Google pour laisser un avis <strong>5 étoiles</strong>!</span></p>
 
     <p><span class="cross">❌ Client PAS 100% satisfait</span><br>
-       <span style="margin-left:24px;">→ Message de remerciement interne seulement.</span><br>
-       <span style="margin-left:24px;">→ <strong>AUCUNE</strong> redirection Google. <strong>AUCUN</strong> mauvais avis public.</span></p>
+       <span style="margin-left:24px;"><span class="arrow">→</span> Message de remerciement interne seulement.</span><br>
+       <span style="margin-left:24px;"><span class="arrow">→</span> <strong>AUCUNE</strong> redirection Google. <strong>AUCUN</strong> mauvais avis public.</span></p>
 
 
-    <h2>Choisissez votre méthode</h2>
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <!-- SECTION 2 - 2 FAÇONS D'ENVOYER                                -->
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <h2 id="section2"><span class="num">2</span>2 façons d'envoyer le sondage</h2>
 
-    <div class="toc-item">📧 &nbsp;<strong>OPTION 1 — Email avec bouton stylisé</strong> &nbsp;<span style="color:#64748b">(le plus professionnel)</span></div>
-    <div class="toc-item">📝 &nbsp;<strong>OPTION 2 — Email texte simple</strong> &nbsp;<span style="color:#64748b">(prêt à copier-coller)</span></div>
-    <div class="toc-item">📱 &nbsp;<strong>OPTION 3 — SMS / texto</strong> &nbsp;<span style="color:#64748b">(prêt à copier-coller)</span></div>
+    <p class="small">Choisissez la méthode qui vous convient le mieux.</p>
 
+    <!-- MÉTHODE A : AUTOMATISÉE -->
+    <div class="method-box method-a">
+        <h3>🚀 Méthode A — Envoi AUTOMATISÉ via votre CRM Activix <span class="badge-recommended">RECOMMANDÉ</span></h3>
+        <p>Vous pouvez intégrer un modèle d'email/SMS directement dans <strong>Activix</strong> pour que le sondage soit envoyé <strong>automatiquement</strong> au client dès que vous changez le statut du véhicule à <strong>« Livré »</strong>.</p>
 
-    <h2>📧 Option 1 — Email avec bouton stylisé</h2>
-    <p><em>Recommandé pour Gmail et Outlook (rendu visuel professionnel).</em></p>
+        <p><strong>Comment faire :</strong></p>
+        <ol style="margin-top:6px;">
+            <li><strong>Contactez le support Activix</strong> (votre représentant CRM).</li>
+            <li>Demandez-leur de <strong>programmer un email/SMS automatisé</strong> qui se déclenche lorsque le véhicule passe au statut <strong>« Livré »</strong>.</li>
+            <li>Fournissez-leur l'un des <strong>modèles de message ci-dessous</strong> (Section 3) à utiliser comme gabarit.</li>
+            <li>Une fois configuré : <strong>plus rien à faire de votre côté</strong>, le sondage part tout seul après chaque livraison! 🎉</li>
+        </ol>
 
-    <div class="step"><span class="step-num">ÉTAPE 1</span>Double-cliquez sur le fichier <strong>"Template-Email-Sondage.html"</strong>.<br>
-       <span style="margin-left:80px;">► Il s'ouvre dans votre navigateur.</span></div>
-
-    <div class="step"><span class="step-num">ÉTAPE 2</span><span class="key">CTRL + A</span> &nbsp;(sélectionner tout)</div>
-    <div class="step"><span class="step-num">ÉTAPE 3</span><span class="key">CTRL + C</span> &nbsp;(copier)</div>
-
-    <div class="step"><span class="step-num">ÉTAPE 4</span>Gmail / Outlook ► Nouveau message ► Cliquez dans le corps du message ► <span class="key">CTRL + V</span> (coller)</div>
-
-    <div class="step"><span class="step-num">ÉTAPE 5</span>Ajoutez l'adresse email du client.</div>
-
-    <div class="step"><span class="step-num">ÉTAPE 6</span>Ajoutez l'<strong>objet</strong> ci-dessous, puis <strong>ENVOYEZ</strong>.</div>
-
-    <div class="copy-block">
-       <strong>Objet :</strong> &nbsp;Merci pour votre achat! Un petit sondage rapide? ⭐
+        <div class="tip-box" style="margin-top:14px;">
+            <strong>💡 Avantage :</strong> Aucun oubli, 100% des clients reçoivent le sondage, gain de temps énorme pour votre équipe.
+        </div>
     </div>
 
-    <div class="tip-box">💡 <strong>Astuce Gmail</strong> — Sauvegardez comme modèle réutilisable :<br>
+    <!-- MÉTHODE B : MANUELLE -->
+    <div class="method-box method-b">
+        <h3>📋 Méthode B — Envoi MANUEL (copier-coller)</h3>
+        <p>Si vous préférez envoyer le sondage manuellement après chaque vente, copiez-collez l'un des <strong>modèles de la Section 3</strong> dans votre Gmail, Outlook ou application SMS.</p>
+
+        <p><strong>Procédure rapide :</strong></p>
+        <div class="step"><span class="step-num">ÉTAPE 1</span>Choisissez votre modèle dans la Section 3 (Email avec bouton, Email texte, ou SMS).</div>
+        <div class="step"><span class="step-num">ÉTAPE 2</span><span class="key">CTRL + A</span> pour sélectionner, <span class="key">CTRL + C</span> pour copier.</div>
+        <div class="step"><span class="step-num">ÉTAPE 3</span>Collez dans Gmail / Outlook / SMS &nbsp;<span class="key">CTRL + V</span>.</div>
+        <div class="step"><span class="step-num">ÉTAPE 4</span>Ajoutez le destinataire et envoyez! ✅</div>
+    </div>
+
+
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <!-- SECTION 3 - MODÈLES DE MESSAGE                                -->
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <h2 id="section3"><span class="num">3</span>Vos modèles de message</h2>
+    <p class="small">3 formats disponibles. Utilisez celui qui correspond à votre besoin (manuel ou Activix).</p>
+
+    <!-- MODÈLE 1 : EMAIL AVEC BOUTON HTML -->
+    <h3>📧 Modèle 1 — Email avec bouton stylisé (HTML) <span class="pill">le plus professionnel</span></h3>
+    <p class="small">Ouvrez le fichier <strong>"Template-Email-Sondage.html"</strong> dans votre navigateur, puis <span class="key">CTRL + A</span> &rarr; <span class="key">CTRL + C</span> &rarr; collez dans Gmail/Outlook.</p>
+
+    <p><strong>Objet à utiliser :</strong></p>
+    <div class="copy-block">
+        Merci pour votre achat! Un petit sondage rapide? ⭐
+    </div>
+
+    <div class="tip-box">💡 <strong>Astuce Gmail</strong> — Sauvegardez comme modèle réutilisable :
        Nouveau message ► 3 petits points (en bas à droite) ► Modèles ► <em>Enregistrer le brouillon comme modèle</em>.</div>
 
-    <div class="tip-box">💡 <strong>Astuce Outlook</strong> — Sauvegardez comme modèle :<br>
+    <div class="tip-box">💡 <strong>Astuce Outlook</strong> — Sauvegardez comme modèle :
        Fichier ► Enregistrer sous ► Type : <em>"Modèle Outlook (*.oft)"</em>.</div>
 
 
-    <h2>📝 Option 2 — Email texte simple</h2>
-    <p><em>Idéal pour CRM, Outlook texte simple, ou envoi rapide.</em></p>
+    <!-- MODÈLE 2 : EMAIL TEXTE SIMPLE -->
+    <h3>📝 Modèle 2 — Email texte simple <span class="pill">pour Activix &amp; CRM</span></h3>
+    <p class="small">Format texte brut, idéal pour intégration dans Activix, Outlook texte simple, ou envoi rapide.</p>
 
-    <h3>Objet de l'email</h3>
     <div class="copy-block">
-       Merci pour votre achat! Un petit sondage rapide? ⭐
+        <span class="copy-label">Objet de l'email</span>
+        Merci pour votre achat! Un petit sondage rapide? ⭐
     </div>
 
-    <h3>Corps du message <span style="font-weight:400; color:#64748b; font-size:13px;">(sélectionnez et copiez tout ci-dessous)</span></h3>
     <div class="copy-block">
-       Bonjour,<br><br>
-       Nous espérons que vous profitez pleinement de votre nouveau véhicule! 🚗<br><br>
-       Votre satisfaction est notre priorité. Pourriez-vous prendre 30 secondes pour répondre à notre court sondage?<br><br>
-       👉 Cliquez ici pour donner votre avis :<br>
-       <a href="https://sondage-deschamps-chevrolet.pages.dev" class="link">https://sondage-deschamps-chevrolet.pages.dev</a><br><br>
-       Merci de votre confiance!<br><br>
-       L'équipe de <strong>Deschamps Chevrolet Buick Cadillac GMC</strong><br>
-       📍 333 Blvd. Armand-Frappier, Sainte-Julie, QC
-    </div>
-
-
-    <h2>📱 Option 3 — SMS / texto</h2>
-    <p><em>Idéal pour un envoi direct depuis cellulaire ou CRM.</em></p>
-
-    <h3>Message <span style="font-weight:400; color:#64748b; font-size:13px;">(sélectionnez et copiez tout ci-dessous)</span></h3>
-    <div class="copy-block">
-       Bonjour! 🚗<br><br>
-       Merci pour votre achat chez <strong>Deschamps Chevrolet</strong>!<br><br>
-       Avez-vous 30 secondes pour un petit sondage?<br>
-       👉 <a href="https://sondage-deschamps-chevrolet.pages.dev" class="link">https://sondage-deschamps-chevrolet.pages.dev</a><br><br>
-       Merci et bonne route!<br>
-       — L'équipe Deschamps Chevrolet
+        <span class="copy-label">Corps du message</span>
+        Bonjour,<br><br>
+        Nous espérons que vous profitez pleinement de votre nouveau véhicule! 🚗<br><br>
+        Votre satisfaction est notre priorité. Pourriez-vous prendre 30 secondes pour répondre à notre court sondage?<br><br>
+        👉 Cliquez ici pour donner votre avis :<br>
+        <a href="https://sondage-deschamps-chevrolet.pages.dev" style="color:#0066CC; font-weight:700;">https://sondage-deschamps-chevrolet.pages.dev</a><br><br>
+        Merci de votre confiance!<br><br>
+        L'équipe de <strong>Deschamps Chevrolet Buick Cadillac GMC</strong><br>
+        📍 333 Blvd. Armand-Frappier, Sainte-Julie, QC
     </div>
 
 
-    <h2>📁 Vos fichiers</h2>
+    <!-- MODÈLE 3 : SMS -->
+    <h3>📱 Modèle 3 — SMS / texto <span class="pill">court &amp; efficace</span></h3>
+    <p class="small">Format court pour envoi par texto depuis votre cellulaire ou via Activix SMS.</p>
 
-    <div class="file-row"><span class="file-name">📄 Instructions.txt</span> &nbsp;— CE GUIDE (texte simple)</div>
-    <div class="file-row"><span class="file-name">📄 Instructions.html</span> &nbsp;— CE GUIDE (à copier-coller dans Gmail avec mise en forme)</div>
-    <div class="file-row"><span class="file-name">📄 Template-Email-Sondage.html</span> &nbsp;— Email visuel pour l'Option 1</div>
-    <div class="file-row"><span class="file-name">📄 Template-Email-Texte.txt</span> &nbsp;— Backup texte</div>
-    <div class="file-row"><span class="file-name">📄 Template-SMS.txt</span> &nbsp;— Backup SMS</div>
+    <div class="copy-block">
+        <span class="copy-label">Message à envoyer</span>
+        Bonjour! 🚗<br><br>
+        Merci pour votre achat chez <strong>Deschamps Chevrolet</strong>!<br><br>
+        Avez-vous 30 secondes pour un petit sondage?<br>
+        👉 <a href="https://sondage-deschamps-chevrolet.pages.dev" style="color:#0066CC; font-weight:700;">https://sondage-deschamps-chevrolet.pages.dev</a><br><br>
+        Merci et bonne route!<br>
+        — L'équipe Deschamps Chevrolet
+    </div>
 
 
-    <h2>❓ Besoin d'aide?</h2>
-    <p>Pour toute question, contactez la personne qui vous a fourni ces documents.</p>
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <!-- SECTION 4 - VOS FICHIERS                                      -->
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <h2 id="section4"><span class="num">4</span>Vos fichiers</h2>
 
-    <p style="text-align:center; margin-top:32px; color:#64748b; font-size:14px;">Bonne utilisation! &nbsp;🚗 &nbsp;⭐</p>
+    <div class="opt-card"><span class="file-name">📄 Instructions.txt</span> &nbsp;— Ce guide (texte simple)</div>
+    <div class="opt-card"><span class="file-name">📄 Instructions.html</span> &nbsp;— Ce guide (à copier-coller dans Gmail avec mise en forme)</div>
+    <div class="opt-card"><span class="file-name">📄 Template-Email-Sondage.html</span> &nbsp;— Email visuel pour le Modèle 1</div>
+    <div class="opt-card"><span class="file-name">📄 Template-Email-Texte.txt</span> &nbsp;— Backup du Modèle 2 (texte)</div>
+    <div class="opt-card"><span class="file-name">📄 Template-SMS.txt</span> &nbsp;— Backup du Modèle 3 (SMS)</div>
+
+
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <!-- SECTION 5 - BESOIN D'AIDE                                     -->
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <h2 id="section5"><span class="num">5</span>Besoin d'aide?</h2>
+
+    <p><strong>Pour automatiser via Activix :</strong> Contactez le <strong>support Activix</strong> (votre représentant CRM).</p>
+    <p><strong>Pour toute autre question :</strong> Contactez la personne qui vous a fourni ces documents.</p>
+
+    <p style="text-align:center; margin-top:36px; padding-top:20px; border-top:1px solid #e2e8f0; color:#64748b; font-size:14px;">
+        Bonne utilisation! &nbsp;🚗 &nbsp;⭐
+    </p>
 
 </div>
 

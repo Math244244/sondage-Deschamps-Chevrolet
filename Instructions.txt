@@ -1,20 +1,29 @@
 
-   GUIDE D'UTILISATION — SONDAGE DE SATISFACTION CLIENT
-   Deschamps Chevrolet Buick Cadillac GMC
+   🚗  GUIDE D'UTILISATION — SONDAGE DE SATISFACTION CLIENT
+       Deschamps Chevrolet Buick Cadillac GMC
 
 
-🔗  VOTRE LIEN DE SONDAGE
+🔗  VOTRE LIEN DE SONDAGE  (déjà en ligne et prêt à l'emploi!)
 
-   https://sondage-deschamps-chevrolet.pages.dev
+       https://sondage-deschamps-chevrolet.pages.dev
 
 
 
-━━━  COMMENT ÇA FONCTIONNE?  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📑  SOMMAIRE
+       1. Comment ça fonctionne?
+       2. 2 façons d'envoyer le sondage (Automatique ou Manuel)
+       3. Vos modèles de message prêts à utiliser
+       4. Vos fichiers
+       5. Besoin d'aide?
+
+
+
+━━━  1.  COMMENT ÇA FONCTIONNE?  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Après chaque vente, vous envoyez un email ou un texto à votre client.
 Le client clique sur le lien et répond à 3 questions rapides (30 sec).
 
-   ✅  Client SATISFAIT (Excellent + Excellent + Oui)
+   ✅  Client SATISFAIT  (Excellent + Excellent + Oui)
        → Redirigé automatiquement vers Google pour un avis 5 étoiles!
 
    ❌  Client PAS 100% satisfait
@@ -23,51 +32,80 @@ Le client clique sur le lien et répond à 3 questions rapides (30 sec).
 
 
 
-━━━  CHOISISSEZ VOTRE MÉTHODE  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━  2.  2 FAÇONS D'ENVOYER LE SONDAGE  ━━━━━━━━━━━━━━━━━━━━━━━━━
 
-   📧  OPTION 1 — EMAIL AVEC BOUTON STYLISÉ   (le plus professionnel)
-   📝  OPTION 2 — EMAIL TEXTE SIMPLE          (prêt à copier-coller)
-   📱  OPTION 3 — SMS / TEXTO                 (prêt à copier-coller)
+Choisissez la méthode qui vous convient le mieux.
 
 
+   🚀  MÉTHODE A — ENVOI AUTOMATISÉ VIA VOTRE CRM ACTIVIX
+       ★ RECOMMANDÉ ★
 
-━━━  OPTION 1 — EMAIL AVEC BOUTON STYLISÉ  ━━━━━━━━━━━━━━━━━━━━━━
+   Vous pouvez intégrer un modèle d'email/SMS directement dans
+   Activix pour que le sondage soit envoyé AUTOMATIQUEMENT au
+   client dès que vous changez le statut du véhicule à « Livré ».
 
-📌 Recommandé pour Gmail et Outlook (rendu visuel professionnel).
+   Comment faire :
 
-   ÉTAPE 1   Double-cliquez sur "Template-Email-Sondage.html"
-             ► Il s'ouvre dans votre navigateur.
+       1.  Contactez le support Activix (votre représentant CRM).
+       2.  Demandez-leur de programmer un email/SMS automatisé qui
+           se déclenche lorsque le véhicule passe au statut « Livré ».
+       3.  Fournissez-leur l'un des modèles de message ci-dessous
+           (Section 3) à utiliser comme gabarit.
+       4.  Une fois configuré : plus rien à faire de votre côté!
+           Le sondage part tout seul après chaque livraison. 🎉
 
-   ÉTAPE 2   CTRL + A   (sélectionner tout)
-   ÉTAPE 3   CTRL + C   (copier)
-
-   ÉTAPE 4   Gmail / Outlook ► Nouveau message ► Cliquez dans le
-             corps du message ► CTRL + V   (coller)
-
-   ÉTAPE 5   Ajoutez l'adresse email du client.
-
-   ÉTAPE 6   Ajoutez l'objet ci-dessous, puis ENVOYEZ.
-
-       Objet :  Merci pour votre achat! Un petit sondage rapide? ⭐
-
-
-💡 GMAIL — Sauvegardez comme modèle réutilisable :
-   Nouveau message ► 3 petits points (en bas à droite) ► Modèles ►
-   Enregistrer le brouillon comme modèle.
-
-💡 OUTLOOK — Sauvegardez comme modèle :
-   Fichier ► Enregistrer sous ► Type : "Modèle Outlook (*.oft)".
+   💡 AVANTAGE : Aucun oubli, 100% des clients reçoivent le sondage,
+      gain de temps énorme pour votre équipe.
 
 
+   📋  MÉTHODE B — ENVOI MANUEL (copier-coller)
 
-━━━  OPTION 2 — EMAIL TEXTE SIMPLE  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Si vous préférez envoyer le sondage manuellement après chaque
+   vente, copiez-collez l'un des modèles de la Section 3 dans
+   votre Gmail, Outlook ou application SMS.
 
-📌 Idéal pour CRM, Outlook texte simple, ou envoi rapide.
+   Procédure rapide :
 
-   OBJET :   Merci pour votre achat! Un petit sondage rapide? ⭐
+       ÉTAPE 1   Choisissez votre modèle dans la Section 3
+                 (Email avec bouton, Email texte, ou SMS).
+       ÉTAPE 2   CTRL + A  (sélectionner)
+                 CTRL + C  (copier)
+       ÉTAPE 3   Collez dans Gmail / Outlook / SMS
+                 CTRL + V
+       ÉTAPE 4   Ajoutez le destinataire et envoyez! ✅
 
 
-   MESSAGE   (sélectionnez et copiez tout ci-dessous)
+
+━━━  3.  VOS MODÈLES DE MESSAGE  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3 formats disponibles. Utilisez celui qui correspond à votre besoin
+(manuel ou pour Activix).
+
+
+   📧  MODÈLE 1 — EMAIL AVEC BOUTON STYLISÉ (HTML)
+       ► Le plus professionnel
+
+   Ouvrez le fichier "Template-Email-Sondage.html" dans votre
+   navigateur, puis CTRL + A → CTRL + C → collez dans Gmail/Outlook.
+
+   Objet à utiliser :
+
+       Merci pour votre achat! Un petit sondage rapide? ⭐
+
+   💡 ASTUCE GMAIL — Sauvegardez comme modèle réutilisable :
+      Nouveau message ► 3 petits points (en bas à droite) ► Modèles
+      ► Enregistrer le brouillon comme modèle.
+
+   💡 ASTUCE OUTLOOK — Sauvegardez comme modèle :
+      Fichier ► Enregistrer sous ► Type : "Modèle Outlook (*.oft)".
+
+
+   📝  MODÈLE 2 — EMAIL TEXTE SIMPLE
+       ► Idéal pour Activix et autres CRM
+
+   OBJET :    Merci pour votre achat! Un petit sondage rapide? ⭐
+
+   CORPS DU MESSAGE :
 
    ──────────────────────────────────────────────────────────────
 
@@ -90,12 +128,10 @@ Le client clique sur le lien et répond à 3 questions rapides (30 sec).
    ──────────────────────────────────────────────────────────────
 
 
+   📱  MODÈLE 3 — SMS / TEXTO
+       ► Court et efficace
 
-━━━  OPTION 3 — SMS / TEXTO  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-📌 Idéal pour un envoi direct depuis cellulaire ou CRM.
-
-   MESSAGE   (sélectionnez et copiez tout ci-dessous)
+   MESSAGE À ENVOYER :
 
    ──────────────────────────────────────────────────────────────
 
@@ -113,19 +149,24 @@ Le client clique sur le lien et répond à 3 questions rapides (30 sec).
 
 
 
-━━━  VOS FICHIERS  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━  4.  VOS FICHIERS  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-   📄  Instructions.txt              CE GUIDE (texte simple)
-   📄  Instructions.html             CE GUIDE (à copier-coller dans Gmail
-                                     avec mise en forme : gras + couleurs)
-   📄  Template-Email-Sondage.html   Email visuel pour l'Option 1
-   📄  Template-Email-Texte.txt      Backup texte
-   📄  Template-SMS.txt              Backup SMS
+   📄  Instructions.txt              Ce guide (texte simple)
+   📄  Instructions.html             Ce guide (avec mise en forme,
+                                     à copier-coller dans Gmail)
+   📄  Template-Email-Sondage.html   Email visuel pour le Modèle 1
+   📄  Template-Email-Texte.txt      Backup du Modèle 2 (texte)
+   📄  Template-SMS.txt              Backup du Modèle 3 (SMS)
 
 
-━━━  BESOIN D'AIDE?  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Contactez la personne qui vous a fourni ces documents.
+━━━  5.  BESOIN D'AIDE?  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Pour automatiser via Activix :
+   Contactez le support Activix (votre représentant CRM).
+
+Pour toute autre question :
+   Contactez la personne qui vous a fourni ces documents.
 
 
                         Bonne utilisation!  🚗 ⭐
