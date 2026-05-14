@@ -1,4 +1,14 @@
-# Redirections Netlify
-# Cette redirection côté serveur contourne le dialogue "Ouvrir avec" sur Android
+# Redirections Cloudflare Pages
+# Cette redirection cote serveur contourne le dialogue "Ouvrir avec" sur Android
 
 /google-review  https://search.google.com/local/writereview?placeid=ChIJ6-vHEu4ByUwR0-rVM_CimFA  301!
+
+# Blocage des fichiers internes (les rediriger vers la page principale)
+/GUIDE-NOUVEAU-CLIENT.txt  /  302
+/GUIDE-MIGRATION-SONDAGE.md  /  302
+/Instructions.txt  /  302
+/Template-Email-Sondage.html  /  302
+/Template-Email-Texte.txt  /  302
+/Template-SMS.txt  /  302
+/logo_deschamps_CMYK_avec_marques_500px.png  /  302
+/.gitignore  /  302

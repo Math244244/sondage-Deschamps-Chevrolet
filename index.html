@@ -19,7 +19,7 @@
       // SOLUTION MOBILE + DESKTOP
       // =====================================================
       
-      // SOLUTION : Utiliser une redirection côté SERVEUR (Netlify _redirects)
+      // SOLUTION : Utiliser une redirection côté SERVEUR (Cloudflare Pages _redirects)
       // pour contourner le dialogue "Ouvrir avec" sur Android
       // Le fichier _redirects fait : /google-review -> URL Google (301)
       // Une redirection 301 côté serveur ne déclenche PAS le dialogue Android
@@ -27,7 +27,7 @@
       // Place ID CONFIRMÉ via Google Place ID Finder
       PLACE_ID: 'ChIJ6-vHEu4ByUwR0-rVM_CimFA',
       
-      // URL de redirection interne (gérée par Netlify _redirects)
+      // URL de redirection interne (gérée par Cloudflare Pages _redirects)
       // Cette URL fait une redirection 301 côté serveur vers Google
       // Retour au lien officiel stable (Le seul garanti de fonctionner à 100% sur tous les appareils)
       GOOGLE_REVIEW_URL: 'https://search.google.com/local/writereview?placeid=ChIJ6-vHEu4ByUwR0-rVM_CimFA',
@@ -39,7 +39,6 @@
       DEALER_BRAND: 'Deschamps Chevrolet Buick Cadillac GMC',
       API_ENDPOINT: ''
     };
-    const FALLBACK_EMAIL = 'vous@votreentreprise.com';
   </script>
 
   <!-- =========================
